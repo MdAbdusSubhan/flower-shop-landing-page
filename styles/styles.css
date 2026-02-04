@@ -15,7 +15,7 @@
 
 .container {
     max-width: 1140px;
-    margin: 50px auto;
+    margin: 100px auto;
     padding: 0 16px;
 }
 
@@ -149,6 +149,36 @@ header {
     width: auto;
 }
 
+/* service section styles */
+.service{
+    background-color: rgba(39, 39, 39, 0.247);
+    padding: 80px 100px;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+}
+
+.service-box img{
+    margin-bottom: 24px;
+}
+
+.service-box p{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media query for responsive */
 
@@ -176,6 +206,12 @@ header {
     .feature-card-container {
         flex-direction: column;
         align-items: center;
+    }
+
+    /* service */
+    .service{
+        flex-direction: column;
+        
     }
 }
 
